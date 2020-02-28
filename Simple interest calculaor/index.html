@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+   </head>
+<body>
+
+    <form> 
+
+        <div class ="simple">
+        <h2 class="heading"> SIMPLE INTEREST CALCULATOR</h2>
+        <div class= "apple" id="app">
+        <div id="result">
+    
+        <label for ="one"  class="perform"  id="amount">Principal</label>    <br> <br>  
+        <input type ="number" v-model="principal" id="cal"><br><br>
+        <label for ="one" id="amount">Rate</label>  <br><br>      
+         <input type ="number" v-model="rate" id="cal"><br><br>
+         <label for ="one" id="amount">Time</label> <br><br>       
+        <input type ="number" v-model ="time" id="cal">
+
+        <p>simple interest is ${{ calculate}}</p> 
+
+        
+        </div>
+
+     </div> 
+     </div>
+     </form> 
+    
+     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    
+    <script src="./app.js"></script>
+</body>
+</html>
